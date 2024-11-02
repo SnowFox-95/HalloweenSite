@@ -6,14 +6,27 @@
     scroll-padding-top: 3rem;
     font-family: var(--font-famyly-1);
 }
-body{
+
+body {
     color: var(--text-color);
     background: var(--body-color);
 }
-a{
+
+a {
     text-decoration: none;
 }
-img{
+
+img {
     width: 100%;
 }
-section{padding: 3rem 0 2rem;}
+
+section {
+    padding: 3rem 0 2rem;
+}
+
+.container {
+    max-width: 1600px;
+    width: 100%;
+    margin: auto;
+    ;
+}

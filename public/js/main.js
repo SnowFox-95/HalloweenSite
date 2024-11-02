@@ -15,7 +15,7 @@
   \************************/
 /***/ (function() {
 
-eval("\n\n//# sourceURL=webpack://gulp22-start/./src/js/main.js?");
+eval("//menu\r\n\r\nlet menu = document.querySelector(\".menu-icon\");\r\n\r\nmenu.onclick = () => {\r\n    menu.classList.toggle('move');\r\n};\r\n\n\n//# sourceURL=webpack://gulp22-start/./src/js/main.js?");
 
 /***/ })
 
