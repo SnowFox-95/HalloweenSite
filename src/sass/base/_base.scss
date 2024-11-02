@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    scroll-padding-top: 3rem;
+    font-family: var(--font-famyly-1);
+}
+body{
+    color: var(--text-color);
+    background: var(--body-color);
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+section{padding: 3rem 0 2rem;}
