@@ -1,0 +1,44 @@
+.home-content {
+    text-align: center;
+    padding-top: 5rem !important;
+
+    span {
+        font-size: 1.4rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: var(--green-color);
+    }
+
+    h1 {
+        font-size: 8.5rem;
+        font-family: var(--font-famyly-2);
+        color: var(--main-color);
+        text-shadow: 2px 2px 0 #fff, -2px 2px 0 #fff, -2px -2px 0 #fff, 2px -2px 0 #fff;
+    }
+
+    p {
+        font-size: 2rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 2rem;
+
+    }
+}
+
+.btn {
+    background: var(--text-color-alter);
+    color: var(--text-color);
+    font-size: 0.84rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 7px 20px;
+    border-radius: 20px;
+    border: 2px solid var(--text-color);
+    transition: background .4s ease;
+
+    &:hover {
+        background: var(--text-color);
+        color: var(--text-color-alter);
+        transition: background .4s ease;
+    }
+}

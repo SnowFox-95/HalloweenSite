@@ -1,0 +1,51 @@
+.home {
+    width: 100%;
+    min-height: 900px;
+    position: relative;
+    overflow: hidden;
+}
+
+.home-img {
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: calc(100% + 15px);
+    height: calc(100% + 10px);
+    object-fit: cover;
+    object-position: bottom;
+    z-index: -1;
+    transform: scale(1.1);
+    animation: homeimg 4s linear infinite alternate;
+
+    @keyframes homeimg {
+        0% {
+            transform: translate3d(-5px, 5px, 0);
+        }
+
+        50% {
+            transform: translate3d(-5px, 0px, 0);
+        }
+
+        100% {
+            transform: translate3d(0px, 5px, 0);
+        }
+    }
+}
+
+
+
+.home-layer1 {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    max-width: 250px;
+    object-fit: cover;
+}
+
+.home-layer2 {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    max-width: 200px;
+    object-fit: cover;
+}
