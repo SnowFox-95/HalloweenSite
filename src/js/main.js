@@ -1,7 +1,5 @@
-//menu
+import myswipe from './myswipe';
+import menu from './menu';
 
-let menu = document.querySelector(".menu-icon");
-
-menu.onclick = () => {
-    menu.classList.toggle('move');
-};
+menu();
+myswipe();
