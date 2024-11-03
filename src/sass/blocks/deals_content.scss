@@ -1,0 +1,53 @@
+.deal-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+    gap: 1rem;
+}
+
+.deal-box {
+    display: grid;
+    justify-items: center;
+    cursor: pointer;
+
+    img {
+        width: 100%;
+        height: 240px;
+        object-fit: contain;
+        object-position: center;
+        margin-bottom: 1rem;
+    }
+
+    h2 {
+        font-size: 0.9rem;
+        color: var(--text-color);
+    }
+
+    span {
+        font-size: 1.1rem;
+        font-weight: 700;
+        color: var(--main-color);
+        margin: 10px 0 14px;
+    }
+
+    &:hover .add-cart {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.add-cart {
+    display: block;
+    color: var(--text-color);
+    font-size: 0.87rem;
+    border: 1px solid var(--text-color);
+    padding: 7px 20px;
+    border-radius: 20px;
+    opacity: 0;
+    transition: all .4s ease;
+
+    &:hover {
+        background: var(--text-color);
+        color: var(--main-color);
+        transition: all .4s ease;
+    }
+}
