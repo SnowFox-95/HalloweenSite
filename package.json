@@ -54,5 +54,8 @@
     "sass": "^1.56.0",
     "webpack": "^5.74.0",
     "webpack-stream": "^7.0.0"
+  },
+  "dependencies": {
+    "swiper": "^11.1.14"
   }
 }

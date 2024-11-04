@@ -1,0 +1,29 @@
+.ticket-box {
+    background: #3f2655;
+    text-align: center;
+    padding: 60px 35px;
+    border-radius: 1rem;
+
+    h2 {
+        font-size: 1.2rem;
+        font-weight: 500;
+        margin-bottom: 2rem;
+        border-bottom: 3px dashed var(--text-color);
+    }
+
+    span {
+        font-size: 2.8rem;
+        letter-spacing: 1px;
+        color: var(--main-color);
+        font-family: var(--font-family-2);
+    }
+}
+
+.t-info {
+    margin: 1.5rem 0 1.8rem;
+
+    p {
+        font-size: 0.88rem;
+        margin-top: 10px;
+    }
+}
