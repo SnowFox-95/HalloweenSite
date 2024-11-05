@@ -1,0 +1,10 @@
+@media (max-width:560px) {
+    .footer {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-box {
+        justify-content: center;
+        text-align: center;
+    }
+}
