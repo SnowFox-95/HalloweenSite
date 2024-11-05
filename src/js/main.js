@@ -1,10 +1,16 @@
 import Swiper from "swiper";
 let menu = document.querySelector(".menu-icon");
+let navbar = document.querySelector(".navbar");
 
 menu.onclick = () => {
   menu.classList.toggle("move");
+  navbar.classList.toggle("open-menu");
 };
 
+window.onscroll = () => {
+  menu.classList.remove("move");
+  navbar.classList.remove("open-menu");
+};
 let swiper = new Swiper(".selling-content", {
   spaceBetween: 20,
   centeredSlides: false,

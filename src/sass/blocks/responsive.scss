@@ -1,0 +1,170 @@
+@media (max-width:1080px) {
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .home {
+        min-height: 730px;
+    }
+
+    .home-layer1 {
+        top: 80px;
+        max-width: 190px;
+    }
+
+    .home-layer2 {
+        max-width: 140px;
+    }
+}
+
+@media (max-width:895px) {
+    .nav {
+        padding: 18px 0;
+
+    }
+
+    section {
+        padding: 2rem 0;
+    }
+
+    .home {
+        min-height: 670px;
+    }
+
+    .home-content {
+        h1 {
+            font-size: 6.5rem;
+        }
+    }
+
+    .heading {
+        font-size: 2.2rem;
+    }
+
+    .footer {
+        grid-template-columns: repeat(2, 240px);
+    }
+}
+
+@media (max-width:730px) {
+    .menu-icon {
+        div {
+            display: flex;
+        }
+    }
+
+    .navbar {
+        position: absolute;
+        top: 110%;
+        left: 50%;
+        transform: translate(-50%);
+        width: 90vw;
+        flex-direction: column;
+        background: var(--body-color);
+        padding: 28px 0;
+        border-radius: 1rem;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        transition: .5s all cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+
+    .open-menu {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        transition: .5s all cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+
+    .nav-link {
+        display: block;
+        margin: 1rem 0;
+    }
+
+    .home {
+        min-height: 560px;
+    }
+
+    .home-content {
+        padding-top: 4rem !important;
+
+        span {
+            font-size: 1.025rem;
+        }
+
+        h1 {
+            font-size: 4.5rem;
+        }
+
+        p {
+            font-size: 1.4rem;
+        }
+    }
+
+    .home-layer1 {
+        max-width: 120px;
+    }
+
+    .home-layer2 {
+        max-width: 90px;
+    }
+
+    .offer {
+        grid-template-columns: 1fr;
+        gap: 4.5rem;
+    }
+
+    .offer-box {
+        img {
+            width: 90px;
+        }
+
+        h2 {
+            font-size: 1.2rem;
+        }
+    }
+
+    .subscribe {
+        img {
+            width: 70px;
+        }
+    }
+}
+
+@media (max-width:560px) {
+    .footer {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-box {
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media (max-width:420px) {
+    .home-content {
+        h1 {
+            font-size: 3.5rem;
+        }
+    }
+
+    .home-layer1 {
+        top: 60px;
+        max-width: 80px;
+    }
+
+    .home-layer2 {
+        max-width: 74px;
+    }
+
+    .sale-box {
+        img {
+            height: 350px;
+        }
+    }
+
+    .subscribe {
+        img {
+            left: -20px t -20px;
+            z-index: -1;
+        }
+    }
+}
