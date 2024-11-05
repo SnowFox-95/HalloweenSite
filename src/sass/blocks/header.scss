@@ -4,6 +4,12 @@ header {
     left: 0;
     width: 100%;
     z-index: 100;
+    transition: background .3s ease;
+
+    &.header-active {
+        background: var(--body-color);
+        transition: background .3s ease;
+    }
 }
 
 .nav {
