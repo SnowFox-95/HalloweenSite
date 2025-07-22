@@ -22,7 +22,7 @@ jobs:
         run: npm ci
 
       - name: Build site (production mode)
-        run: MODE=production npx gulp --gulpfile gulpfile.js/index.js
+        run: MODE=production npx gulp --gulpfile gulpfile.js/index.js --production
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
